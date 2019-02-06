@@ -1,0 +1,62 @@
+[debug] [2019-02-06T18:45:03.893Z] ----------------------------------------------------------------------
+[debug] [2019-02-06T18:45:03.896Z] Command:       /usr/bin/node /usr/local/bin/firebase deploy
+[debug] [2019-02-06T18:45:03.897Z] CLI Version:   6.3.1
+[debug] [2019-02-06T18:45:03.897Z] Platform:      linux
+[debug] [2019-02-06T18:45:03.897Z] Node Version:  v8.10.0
+[debug] [2019-02-06T18:45:03.897Z] Time:          Thu Feb 07 2019 00:15:03 GMT+0530 (IST)
+[debug] [2019-02-06T18:45:03.897Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2019-02-06T18:45:03.905Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2019-02-06T18:45:03.905Z] > authorizing via signed-in user
+[debug] [2019-02-06T18:45:03.905Z] [iam] checking project fir-recyccl for permissions ["cloudfunctions.functions.create","cloudfunctions.functions.delete","cloudfunctions.functions.get","cloudfunctions.functions.list","cloudfunctions.functions.update","cloudfunctions.operations.get","firebase.projects.get"]
+[debug] [2019-02-06T18:45:03.907Z] >>> HTTP REQUEST POST https://cloudresourcemanager.googleapis.com/v1/projects/fir-recyccl:testIamPermissions  
+
+[debug] [2019-02-06T18:45:06.183Z] <<< HTTP RESPONSE 200
+[info] 
+[info] === Deploying to 'fir-recyccl'...
+[info] 
+[info] i  deploying functions
+[debug] [2019-02-06T18:45:06.687Z] TypeError: Path must be a string. Received undefined
+    at assertPath (path.js:28:11)
+    at Object.join (path.js:1236:7)
+    at Config.path (/usr/local/lib/node_modules/firebase-tools/lib/config.js:134:39)
+    at /usr/local/lib/node_modules/firebase-tools/lib/deploy/lifecycleHooks.js:59:46
+    at _chain (/usr/local/lib/node_modules/firebase-tools/lib/deploy/index.js:22:40)
+    at deploy (/usr/local/lib/node_modules/firebase-tools/lib/deploy/index.js:61:12)
+    at Command._action (/usr/local/lib/node_modules/firebase-tools/lib/commands/deploy.js:63:12)
+    at /usr/local/lib/node_modules/firebase-tools/lib/command.js:158:37
+    at <anonymous>
+    at process._tickDomainCallback (internal/process/next_tick.js:228:7)
+[error] 
+[error] Error: An unexpected error has occurred.
+[debug] [2019-02-06T18:45:15.049Z] ----------------------------------------------------------------------
+[debug] [2019-02-06T18:45:15.052Z] Command:       /usr/bin/node /usr/local/bin/firebase deploy
+[debug] [2019-02-06T18:45:15.052Z] CLI Version:   6.3.1
+[debug] [2019-02-06T18:45:15.052Z] Platform:      linux
+[debug] [2019-02-06T18:45:15.052Z] Node Version:  v8.10.0
+[debug] [2019-02-06T18:45:15.052Z] Time:          Thu Feb 07 2019 00:15:15 GMT+0530 (IST)
+[debug] [2019-02-06T18:45:15.052Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2019-02-06T18:45:15.061Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2019-02-06T18:45:15.061Z] > authorizing via signed-in user
+[debug] [2019-02-06T18:45:15.061Z] [iam] checking project fir-recyccl for permissions ["cloudfunctions.functions.create","cloudfunctions.functions.delete","cloudfunctions.functions.get","cloudfunctions.functions.list","cloudfunctions.functions.update","cloudfunctions.operations.get","firebase.projects.get"]
+[debug] [2019-02-06T18:45:15.063Z] >>> HTTP REQUEST POST https://cloudresourcemanager.googleapis.com/v1/projects/fir-recyccl:testIamPermissions  
+
+[debug] [2019-02-06T18:45:17.061Z] <<< HTTP RESPONSE 200
+[info] 
+[info] === Deploying to 'fir-recyccl'...
+[info] 
+[info] i  deploying functions
+[debug] [2019-02-06T18:45:17.717Z] TypeError: Path must be a string. Received undefined
+    at assertPath (path.js:28:11)
+    at Object.join (path.js:1236:7)
+    at Config.path (/usr/local/lib/node_modules/firebase-tools/lib/config.js:134:39)
+    at /usr/local/lib/node_modules/firebase-tools/lib/deploy/lifecycleHooks.js:59:46
+    at _chain (/usr/local/lib/node_modules/firebase-tools/lib/deploy/index.js:22:40)
+    at deploy (/usr/local/lib/node_modules/firebase-tools/lib/deploy/index.js:61:12)
+    at Command._action (/usr/local/lib/node_modules/firebase-tools/lib/commands/deploy.js:63:12)
+    at /usr/local/lib/node_modules/firebase-tools/lib/command.js:158:37
+    at <anonymous>
+    at process._tickDomainCallback (internal/process/next_tick.js:228:7)
+[error] 
+[error] Error: An unexpected error has occurred.
